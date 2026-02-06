@@ -13,5 +13,5 @@ variable "instance_type" {
 variable "key_name" {
   description = "Name of the SSH key pair to use for the instance"
   type        = string
-  default     = "keypair-training" 
+  default     = "keypair-training"
 }
